@@ -49,6 +49,7 @@
           <div class="col-md-12">
             <fg-input type="text"
                       label="Address"
+                      :disabled="true"
                       placeholder="Home Address"
                       v-model="user.address">
             </fg-input>
@@ -59,6 +60,7 @@
           <div class="col-md-4">
             <fg-input type="text"
                       label="City"
+                      :disabled="true"
                       placeholder="City"
                       v-model="user.city">
             </fg-input>
@@ -66,6 +68,7 @@
           <div class="col-md-4">
             <fg-input type="text"
                       label="Country"
+                      :disabled="true"
                       placeholder="Country"
                       v-model="user.country">
             </fg-input>
@@ -73,24 +76,13 @@
           <div class="col-md-4">
             <fg-input type="number"
                       label="Postal Code"
+                      :disabled="true"
                       placeholder="ZIP Code"
                       v-model="user.postalCode">
             </fg-input>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-12">
-            <div class="form-group">
-              <label>About Me</label>
-              <textarea rows="5" class="form-control border-input"
-                        placeholder="Here can be your description"
-                        v-model="user.aboutMe">
-
-              </textarea>
-            </div>
-          </div>
-        </div>
         <div class="text-center">
           <p-button type="info"
                     round
