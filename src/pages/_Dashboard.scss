@@ -1,0 +1,36 @@
+.post {
+    display: inline-flex;
+    flex: 1;
+    justify-content: left;
+}
+
+.post-img-size {
+    max-width: 100%;
+    max-height: 400px;
+    margin-bottom: 15px;
+}
+
+h6.title-post {
+    font-weight: bold;
+}
+
+.posted-at {
+    font-size: 0.8em;
+}
+
+div.messages-option {
+    float: right;
+}
+
+button.messages-option {
+    border-radius: 50px;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
